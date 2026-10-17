@@ -1,4 +1,4 @@
-const resultHTML =document.querySelector('.result')
+const resultHTML =document.querySelector('#result')
 const outputHTML = document.querySelector('#output')
 const buttonsList = document.querySelectorAll('button')
 console.log(buttonsList)
@@ -18,7 +18,7 @@ function calculate(){
 
     }
     else if (buttonText == '='){
-        let result = eval(outputHTML.innerText)
+        let result = eval(outputHTML.innerText);
         resultHTML.innerText = result;
     }
     else {

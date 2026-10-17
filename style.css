@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.cal{
+    width: 30vw;
+    min-width: 300px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 10px 8px 25px black;
+}
+.display {
+    height: 20vh;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+.btns {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.btns button{
+    padding: 17px;
+}

@@ -18,7 +18,7 @@ function calculate(){
     }
     else if (buttonText == '='){
         let result = eval(outputHTML.innerText)
-        resultHTML.innerText = ;
+        resultHTML.innerText = result;
     }
     else {
         outputHTML.innerText += buttonText;
